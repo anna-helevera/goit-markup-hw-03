@@ -103,13 +103,12 @@ img {
   display: inline-block;
   border-color: transparent;
   cursor: pointer;
-  background: var(--secondary-button-color);
-  color: var(--title-color);
+  background: var(--accent-color);
+  color: var(--primary-color);
 }
 .hero-button:hover, 
 .hero-button:focus {
-  background: var(--accent-color);
-  color: var(--primary-color);
+  background: #188CE8;
 }
 
 /* -------BENEFITS---------- */
