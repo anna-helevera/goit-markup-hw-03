@@ -66,6 +66,9 @@ img {
   color: var(--primary-color);
 }
 /* -------HEADER---------- */
+.header {
+  border: 1px solid #ECECEC
+}
 .header-container {
   display: flex;
   align-items: center;
@@ -300,6 +303,7 @@ padding-top: 94px;
   display: block;
   margin-right: 30px;
   margin-bottom: 30px;
+  border-bottom: 1px solid #EEEEEE;
 }
 .project-team-filter:nth-child(3n) {
   margin-right: 0px
