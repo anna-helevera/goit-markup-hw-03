@@ -288,6 +288,7 @@ padding-top: 94px;
 .prodject-title {
   display: block;
   margin-top: 20px;
+  margin-bottom: 4px;
   margin-left: 24px;
   font-weight: 700;
   font-size: 18px;
@@ -309,9 +310,8 @@ padding-top: 94px;
 
 .prodject-category {
   display: block;
-  margin-top: 4px;
-  margin-bottom: 0 auto;
   margin-left: 24px;
+  margin-bottom: 20px;
   font-size: 16px;
   line-height: calc(30/16);
   letter-spacing: 0.03em;
