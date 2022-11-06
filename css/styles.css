@@ -239,6 +239,8 @@ padding-top: 94px;
   display: block; 
   line-height: calc(19/16);
   text-align: center;
+  border-bottom: 1px solid #EEEEEE;
+  border-radius: 0px 0px 4px 4px;
 }
 .name-title{
   margin-top: 30px;
