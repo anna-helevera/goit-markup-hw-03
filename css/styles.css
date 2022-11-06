@@ -239,7 +239,7 @@ padding-top: 94px;
   display: block; 
   line-height: calc(19/16);
   text-align: center;
-  border-bottom: 1px solid #EEEEEE;
+  border-bottom: 1px solid #ECECEC;
   border-radius: 0px 0px 4px 4px;
 }
 .name-title{
@@ -305,7 +305,7 @@ padding-top: 94px;
   display: block;
   margin-right: 30px;
   margin-bottom: 30px;
-  border-bottom: 1px solid #EEEEEE;
+  border-bottom: 1px solid #ECECEC;
 }
 .project-team-filter:nth-child(3n) {
   margin-right: 0px
