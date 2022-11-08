@@ -127,23 +127,16 @@ img {
 .contact-nav .link:focus {
   color: var(--accent-color);
 }
-/* .link {padding-top: 32px;
-  padding-bottom: 32px;
-  } */
+
 /* ---------HEAD SIDE--------- */
 
 /* -------HERO---------- */
 .hero{
   background-color: var(--second-color);
   text-align: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
-.hero-container {
-  padding-top: 106px;
-  padding-bottom: 106px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  }
 .hero-title{
   color: var(--primary-color);
   font-weight: 900;
@@ -153,7 +146,6 @@ img {
   text-transform: uppercase
 }
 .hero-button{
-  margin-top: 30px;
   padding: 10px 32px;
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
@@ -175,7 +167,6 @@ img {
 
 /* -------BENEFITS---------- */
 .benefits{
-  display: flex;
   line-height: calc(24/14); 
 }
 .visually-hidden {
@@ -198,12 +189,10 @@ img {
 .benefits-uptitle{
   display: flex;
   gap: 30px;
-  /* width: calc((100%-90px)/4); */
-  /* margin-top: 94px;
-  margin-bottom: 94px; */
 }
 .benefits-item{
   display: block;
+  width: calc((100% - 90px) / 4);
 }
 /* -------WORK & TEAM---------- */
 
@@ -219,8 +208,9 @@ img {
 .work-uptitle {
   display: flex;
   gap: 30px;
-  /* width: calc((100%-60px)/3); */
-  /* padding-bottom: 94px; */
+}
+.work-item{
+  width: calc((100% - 60px) / 3); 
 }
 .section.work {padding-top:0;}
 /* -------TEAM---------- */
@@ -229,19 +219,17 @@ img {
 }
 .team-uptitle{
   display: flex;
-  /* padding-bottom: 94px; */
   gap: 30px;
-  /* width: calc((100%-90px)/4); */
 }
 .name{
   display: block; 
   line-height: calc(19/16);
   text-align: center;
-  /* border-bottom: 1px solid #ECECEC;
-  border-radius: 0px 0px 4px 4px; */
+  width: calc((100% - 90px) / 4);
+  background-color: var(--primary-color);
 }
 .uptitle {
-  padding: 30px 60px;
+  padding: 30px;
 }
 .name-title{
   /* margin-top: 30px; */
@@ -259,7 +247,6 @@ img {
   display: flex;
   align-content: center;
   justify-content: center;
-  /* padding-top: 94px; */
   margin-bottom: 50px;
 } 
 .button-team-filter {
@@ -303,10 +290,9 @@ img {
 }
 .project-team-filter{
   display: block;
-  width: calc((100%-60px)/3);
+  width: calc((100% - 60px) / 3);
   margin-right: 30px;
   margin-bottom: 30px;
-  /* border-bottom: 1px solid #ECECEC; */
 }
 .project-team-filter:nth-child(3n) {
   margin-right: 0px
