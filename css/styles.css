@@ -262,7 +262,9 @@ img {
   /* padding-top: 94px; */
   margin-bottom: 50px;
 } 
-.button-team-filter{margin-right: 8px;}
+.button-team-filter {
+  margin-right: 8px;
+}
 .button-team-filter:last-child {margin-right:0px}
 .filter-button{
   padding: 6px 22px;
@@ -301,7 +303,7 @@ img {
 }
 .project-team-filter{
   display: block;
-  /* width: calc((100%-60px)/3); */
+  width: calc((100%-60px)/3);
   margin-right: 30px;
   margin-bottom: 30px;
   /* border-bottom: 1px solid #ECECEC; */
